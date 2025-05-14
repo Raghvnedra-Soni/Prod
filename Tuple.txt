@@ -1,0 +1,20 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+my_tuple = ("apple","banana","grapes","apple")
+
+n = input("Enter a value: ").strip().lower()
+num = my_tuple.count(n)
+if n in my_tuple:
+    
+    print(n, "is avilable in the tuple and is present", num, "times" )
+else:
+    print(n, " is not avilable in the tuple")
+
+
+#x = 10
+#y = 10
+#if x is not y:
+#    print(True)
+#else:
+#    print(False)
