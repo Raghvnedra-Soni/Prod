@@ -1,0 +1,37 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+"""
+my_tuple = ("apple","banana","grapes","apple")
+
+n = input("Enter a value: ").strip().lower()
+num = my_tuple.count(n)
+if n in my_tuple:
+    
+    print(n, "is avilable in the tuple and is present", num, "times" )
+else:
+    print(n, " is not avilable in the tuple")
+"""
+#Tuples are immutable and hence they need to be 1st converted to List > make changes and then again change to Tuples.
+
+NewTuple = ('Titan','Timex','Rado','Rolex')
+'''
+List_NewTuple = list(NewTuple)
+List_NewTuple[1] = 'Sonata'
+NewTuple = tuple(List_NewTuple)
+print(NewTuple)
+'''
+
+'''
+#Append new item to  tuple
+
+List_NewTuple = list(NewTuple)
+List_NewTuple.append('Fastrack')
+NewTuple = tuple(List_NewTuple)
+print(NewTuple)
+
+'''
+'''
+fruits = ('apple','banana','oranges','grapes')
+(a, *b, c) = fruits
+print(b)
+'''
