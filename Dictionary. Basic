@@ -1,0 +1,15 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+thisdict = {
+    'car' : 'honda',
+    'model': 2020,
+    'color' : ['red','brown','black','white']
+}
+print(thisdict.get('color'))
+print(thisdict.keys())
+
+thisdict['transmission'] = 'mannual'
+print(thisdict)
+
+print(thisdict.items())
