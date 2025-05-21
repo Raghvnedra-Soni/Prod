@@ -1,0 +1,55 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+'''
+mylist=[-2,-1,2,0,4,5]
+for i in mylist:
+    if i%2 == 1:
+        print('odd')
+    else:
+        print('even')
+'''
+'''
+mylist=[-2,-1,2,0,4,5]
+for i in mylist:
+    if i < 0:
+        print( i, 'is less than zero')
+    elif i>0:
+        print( i , 'is greater than zero')
+    else:
+        print('the number is zero')
+'''
+'''
+mylist=[-2,-1,2,0,4,5]
+pos_count = 0
+neg_count = 0
+count = 0
+for i in mylist:
+    if i > 0:
+        pos_count = pos_count +1
+    elif i < 0:
+        neg_count = neg_count +1
+    else:
+        count = count+1
+print('there are', pos_count, 'postive numbers in the given list.')
+print('there are', neg_count, 'postive numbers in the given list.')
+print('there are', count, 'zero\'s in the given list.')
+'''
+'''
+mylist=[-2,-1,2,0,4,5]
+pos_list=[i for i in mylist if i>0]
+print(pos_list)
+'''
+
+mylist=[-2,-1,2,0,4,0,5]
+even_list = []
+odd_list = []
+zero_list = []
+for i in mylist:
+    if i==0:
+        zero_list.append(i)
+    elif i %2 ==1:
+        odd_list.append(i)
+    else:
+        even_list.append(i)
+print(even_list, odd_list, zero_list)
